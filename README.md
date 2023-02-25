@@ -1,6 +1,6 @@
 # cryptoticker
 
-A new Flutter project.
+I created a new app that fetches the live prices of crypto currencies, in different currencies.
 
 ## Getting Started
 
