@@ -53,9 +53,9 @@ class _PriceScreenState extends State<PriceScreen> {
     getDropDownItems();
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.grey[200],
         centerTitle: true,
-        title: Text('🤑 Coin Ticker' ,
+        title: Text('Coin Ticker' ,
         style: TextStyle(color: Colors.black,
         fontWeight: FontWeight.bold,
         ),
@@ -89,7 +89,7 @@ class _PriceScreenState extends State<PriceScreen> {
             height: 150.0,
             alignment: Alignment.center,
             padding: EdgeInsets.only(bottom: 30.0),
-            color: Colors.grey,
+            color: Colors.grey[200],
             child: DropdownButton<String>(
               borderRadius: BorderRadius.circular(10),
                 focusColor: Colors.grey[900],
@@ -128,7 +128,7 @@ class CryptoCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.grey,
+      color: Colors.grey[200],
       elevation: 5.0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10.0),
